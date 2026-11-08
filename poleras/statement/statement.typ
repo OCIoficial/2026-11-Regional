@@ -13,22 +13,32 @@
 #import "oci.typ": *
 
 #show: problem.with(
-  title: "Suma de ejemplo",
+  title: "Poleras",
 )
 
 #problemDescription[
-  Este es un problema de ejemplo para mostrar cómo usar Ocimatic.
-  El problema es muy simple.
-  Te dan dos enteros y tienes que imprimir su suma.
-  Pero ten cuidado ¡la suma podría no caber en un entero de 32 bits con signo!
+  Juanito tiene $N$ poleras ordenadas en una fila, numeradas de $1$ a $N$.
+  Inicialmente, la polera en la posición $i$ tiene color $C_i$.
+  
+  Cada día, Juanito elige exactamente $K$ poleras para usar. Al terminar el día, su mamá lava las poleras que usó y las coloca al final de la fila, en cualquier orden. Las poleras que Juanito no usó conservan su orden relativo.
+  
+  Después de este proceso, la polera en la posición $i$ tiene color $D_i$.
+  
+  Dadas la configuración inicial $(C_1, C_2, dots, C_N)$ y la configuración
+  final $(D_1, D_2, dots, D_N)$, determina si es posible obtener la segunda a
+  partir de la primera después de un día.
 ]
 
 #inputDescription[
-  La entrada consiste en una sola línea con dos enteros $a$ y $b$ ($-3dot.op 10^9 <= a, b <= 3dot.op 10^9$).
+  La entrada consiste en tres líneas. La primera línea contiene dos enteros $N$ y $K$ ($1 <= K <= N <= 10^5$).
+
+  La segunda línea contiene $N$ enteros $C_1, dots, C_N$ ($1 <= C_i <= N$): la configuración inicial.
+
+  La tercera línea contiene $N$ enteros $D_1, dots, D_N$ ($1 <= D_i <= N$): la configuración objetivo.
 ]
 
 #outputDescription[
-  La salida debe contener un único entero correspondiente a la suma de $a$ y $b$.
+  La salida debe contener el string "SI" si se puede obtener la segunda configuración a partir de la primera, y "NO" en caso contrario.
 ]
 
 #scoreDescription[
