@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="146" viewBox="0 0 500 146">
+  <defs>
+    <marker id="shot" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#794122"/></marker>
+    <marker id="jump" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#155966"/></marker>
+  </defs>
+  <g font-family="sans-serif" font-size="13" text-anchor="middle">
+    <text x="34" y="48" fill="#155966">Lonk</text>
+    <text x="142" y="48" fill="#794122">Meblin</text>
+    <text x="304" y="48" fill="#794122">Meblin</text>
+    <text x="466" y="48" fill="#794122">Meblin</text>
+    <path d="M20 65H480M34 60V70M88 61V69M142 60V70M196 61V69M250 61V69M304 60V70M358 61V69M412 60V70M466 60V70" fill="none" stroke="#64717b"/>
+    <circle cx="34" cy="65" r="5" fill="#155966"/>
+    <path d="M142 59l6 6l-6 6l-6-6zm162 0l6 6l-6 6l-6-6zm162 0l6 6l-6 6l-6-6z" fill="#794122"/>
+    <g fill="#232c34">
+      <text x="34" y="88">0</text><text x="88" y="88">1</text><text x="142" y="88">2</text><text x="196" y="88">3</text><text x="250" y="88">4</text><text x="304" y="88">5</text><text x="358" y="88">6</text><text x="412" y="88">7</text><text x="466" y="88">8</text>
+    </g>
+    <g fill="none" stroke="#794122" stroke-width="1.7" marker-end="url(#shot)">
+      <path d="M34 32H141"/><path d="M405 32H305"/><path d="M419 32H465"/>
+    </g>
+    <g fill="#794122" font-weight="bold">
+      <text x="88" y="23">1</text><text x="358" y="23">4</text><text x="439" y="23">5</text>
+    </g>
+    <g fill="none" stroke="#155966" stroke-width="1.7" stroke-dasharray="5 3" marker-end="url(#jump)">
+      <path d="M34 103Q88 133 141 103"/><path d="M142 103Q277 145 411 103"/>
+    </g>
+    <g fill="#155966" font-weight="bold"><text x="88" y="138">2</text><text x="277" y="144">3</text></g>
+  </g>
+</svg>
