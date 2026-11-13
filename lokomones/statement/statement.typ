@@ -9,11 +9,11 @@
   Accepted para competir en la Liga Lokomon. A pocos metros de la salida
   aparece Mr. Nachianni, líder del equipo WAcket, y lo reta a una batalla.
 
-  Los lokomones de Ashrias están agotados por los combates del camino. Mr.
-  Nachianni quiere una victoria de la que pueda presumir, así que le
-  permite capturar un lokomon antes de enfrentarlo. La batalla será de uno
-  contra uno: el nuevo compañero de Ashrias contra Vichochú, el lokomon
-  favorito de Mr. Nachianni.
+  Los lokomones de Ashrias están agotados por los combates del camino.
+  Mr. Nachianni quiere una victoria de la que pueda presumir, así que le
+  permite capturar un nuevo lokomon antes de la batalla.
+  La batalla será de uno contra uno: el nuevo lokomon de Ashrias
+  contra Vichochú, el lokomon favorito de Mr. Nachianni.
 
   Por suerte, Ashrias tomó nota de los $N$ lokomones que vio mientras
   recorría la calle Accepted. Además, conoce las características de
@@ -48,7 +48,7 @@
   ($1 <= H <= 10^9$; $1 <= A <= 10^8$; $1 <= T <= K$).
 
   La siguiente línea contiene un entero $N$ ($1 <= N <= 100$), la cantidad
-  de lokomones que Ashrias puede capturar.
+  de lokomones que Ashrias tiene como opción para capturar.
 
   Luego vienen $N$ líneas. La $i$-ésima contiene tres enteros $H_i$,
   $A_i$ y $T_i$: la vida, el ataque y el tipo del $i$-ésimo lokomon que
@@ -59,15 +59,16 @@
 ]
 
 #outputDescription[
-  Imprime un entero entre $1$ y $N$: el índice de un lokomon con el que
-  Ashrias pueda ganar la batalla. Si hay varias opciones, puedes imprimir
-  cualquiera de ellas. Si ninguna le permite ganar, imprime $-1$.
+  Si existe algún lokomon con el que Ashrias pueda ganar la batalla,
+  imprime su índice (un entero entre $1$ y $N$). Si hay varias opciones,
+  puedes imprimir cualquiera de ellas. Si ninguno le permite ganar,
+  imprime $-1$.
 ]
 
 #scoreDescription[
   #subtask(30)[
     La vida de Vichochú y la de cada uno de los $N$ lokomones que Ashrias
-    puede capturar es a lo más 1000 ($H <= 1000$ y $H_i <= 1000$ para todo $i$).
+    puede capturar es a lo más $1000$ ($H <= 1000$ y $H_i <= 1000$ para todo $i$).
   ]
 
   #subtask(70)[
@@ -78,9 +79,10 @@
 #sampleDescription[
   #sampleIO("sample-1")
 
-  Vichochú le quita $3 dot.op 2 = 6$ puntos de vida al segundo lokomon.
-  Como este tenía $7$ puntos de vida, alcanza a responder. Su ataque causa
-  $4 dot.op 3 = 12$ puntos de daño y derrota a Vichochú.
+  En este ejemplo, si Ashrias captura el segundo lokomon, Vichochú le
+  quita $3 dot.op 2 = 6$ puntos de vida. Como este tenía $7$ puntos de
+  vida, alcanza a responder. Su ataque causa $4 dot.op 3 = 12$ puntos de
+  daño, suficientes para derrotar a Vichochú, que tenía $12$ puntos de vida.
 
   #sampleIO("sample-2")
 ]
