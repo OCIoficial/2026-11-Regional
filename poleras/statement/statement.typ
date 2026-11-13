@@ -24,7 +24,7 @@
 
   Al final del día, Juanito mira la fila y ve que los colores de sus poleras,
   de izquierda a derecha, son $D_1, D_2, dots, D_N$.
-  Notar que las poleras no cambian de color, solo cambian de posición.
+  Observa que las poleras no cambian de color; solo cambian de posición.
 
   Dadas la configuración inicial $(C_1, C_2, dots, C_N)$ y la configuración
   final $(D_1, D_2, dots, D_N)$, determina si es posible obtener la segunda a

@@ -65,8 +65,8 @@
 #inputDescription[
   La entrada contiene una sola línea con una cadena de exactamente $10$
   caracteres, sin espacios. Cada carácter representa una hora de la noche.
-  El primero corresponde al tramo entre las 22:00 y las 23:00, el segundo,
-  al tramo entre las 23:00 y las 0:00, y así hasta el último, que corresponde
+  El primero corresponde al tramo entre las 22:00 y las 23:00; el segundo,
+  al tramo entre las 23:00 y las 0:00; y así hasta el último, que corresponde
   al tramo entre las 7:00 y las 8:00.
 
   Un `0` indica que Javier no roncará durante esa hora y un `1` indica que

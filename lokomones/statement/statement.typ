@@ -28,7 +28,7 @@
   menos.
 
   *Vichochú ataca primero.* Desde ese momento, los lokomones se turnan
-  para atacar. La batalla termina en cuanto uno de los dos cae derrotado
+  para atacar. La batalla termina en cuanto uno de los dos cae derrotado,
   y gana el entrenador del lokomon que sigue en pie.
 
   Ayuda a Ashrias a elegir uno de los $N$ lokomones con el que pueda
@@ -68,7 +68,7 @@
 #scoreDescription[
   #subtask(30)[
     La vida de Vichochú y la de cada uno de los $N$ lokomones que Ashrias
-    puede capturar es a lo más $1000$ ($H <= 1000$ y $H_i <= 1000$ para todo $i$).
+    puede capturar son a lo más $1000$ ($H <= 1000$ y $H_i <= 1000$ para todo $i$).
   ]
 
   #subtask(70)[

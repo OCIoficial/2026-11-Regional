@@ -25,7 +25,7 @@
   Para derrotar a los meblins, Lonk puede realizar dos acciones:
 
   - *Saltar.* Lonk elige otra posición entera a su izquierda o a su
-    derecha y salta a esta gastando tanta energía como la distancia
+    derecha y salta a ella, gastando tanta energía como la distancia
     que recorre.
     Puede pasar por encima de los meblins, pero siempre debe aterrizar
     en una posición libre.
