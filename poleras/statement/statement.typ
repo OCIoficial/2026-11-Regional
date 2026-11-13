@@ -18,8 +18,8 @@
 
 #problemDescription[
   Emilia guarda sus $N$ poleras colgadas en una fila, numeradas de $1$ a $N$.
-  La polera en la posición $i$ es de color $C_i$. A Emilia le da lo mismo
-  cuál polera roja usa, así que poleras del mismo color son indistinguibles.
+  La polera en la posición $i$ es de color $C_i$.
+  Todas las poleras de un mismo color son indistinguibles.
 
   Mientras Emilia tocaba su flautanahoria en el concierto de la OCI, su
   hermano Javier fue a un cumpleaños. Uno de los juegos era ver quién se
@@ -30,8 +30,8 @@
 
   Cuando Emilia vuelve, mira la fila y ve que los colores de sus poleras,
   de izquierda a derecha, son $D_1, D_2, dots, D_N$.
-  Javier jura que sacó exactamente $K$ poleras, pero Emilia no le cree: ya
-  la ha despertado demasiadas veces con sus ronquidos.
+  Javier jura que sacó exactamente $K$ poleras, pero Emilia no le cree.
+  // : ya la ha despertado demasiadas veces con sus ronquidos.
 
   Dadas la configuración inicial $(C_1, C_2, dots, C_N)$ y la configuración
   final $(D_1, D_2, dots, D_N)$, determina si la historia de Javier es
