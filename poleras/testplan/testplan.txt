@@ -60,8 +60,10 @@
 
 
 [Subtask 3]
-  # N <= 1000
+  # Sin restricciones adicionales
   @validator validation/validator.cpp
+  @extends subtask 1
+  @extends subtask 2
 
   ejemplo ; copy statement/sample-1.in
   manual ; copy testplan/manual/casi.in
@@ -100,14 +102,6 @@
 
   azar ; gen.py 1000 400 2 azar
   azar ; gen.py 1000 990 3 azar
-
-
-[Subtask 4]
-  # Sin restricciones adicionales
-  @validator validation/validator.cpp
-  @extends subtask 1
-  @extends subtask 2
-  @extends subtask 3
 
   si ; gen.py 100000 2 2 si
   si ; gen.py 100000 50000 perm si

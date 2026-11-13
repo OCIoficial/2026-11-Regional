@@ -42,19 +42,15 @@
 ]
 
 #scoreDescription[
-  #subtask(10)[
+  #subtask(15)[
     Juanito usa todas sus poleras ($K = N$).
   ]
 
-  #subtask(20)[
+  #subtask(25)[
     Juanito usa una sola polera ($K = 1$).
   ]
 
-  #subtask(30)[
-    $N <= 1000$.
-  ]
-
-  #subtask(40)[
+  #subtask(60)[
     Sin restricciones adicionales.
   ]
 ]

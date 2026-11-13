@@ -1,6 +1,6 @@
 // Supone que las poleras usadas también conservan su orden relativo al
 // ponerse al final. Correcto cuando K = 1.
-// @ocimatic::expected [st1=WA, st2=OK, st3=WA, st4=WA]
+// @ocimatic::expected [st1=WA, st2=OK, st3=WA]
 #include <bits/stdc++.h>
 using namespace std;
 

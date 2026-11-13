@@ -1,6 +1,6 @@
 // Solo compara los colores de C y D. Correcto cuando K = N, porque las
 // poleras se pueden reordenar como se quiera.
-// @ocimatic::expected [st1=OK, st2=WA, st3=WA, st4=WA]
+// @ocimatic::expected [st1=OK, st2=WA, st3=WA]
 #include <bits/stdc++.h>
 using namespace std;
 

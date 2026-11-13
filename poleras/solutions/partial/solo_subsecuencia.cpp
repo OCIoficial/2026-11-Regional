@@ -1,6 +1,6 @@
 // Solo verifica que las poleras no usadas sean subsecuencia de C, olvidando
 // comparar los colores de las poleras usadas.
-// @ocimatic::expected [st1=WA, st2=WA, st3=WA, st4=WA]
+// @ocimatic::expected [st1=WA, st2=WA, st3=WA]
 #include <bits/stdc++.h>
 using namespace std;
 
