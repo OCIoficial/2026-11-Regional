@@ -24,19 +24,20 @@
 
   Para derrotar a los meblins, Lonk puede realizar dos acciones:
 
-  - *Saltar.* Lonk elige otra posición entera a su izquierda o a su
+  - *Saltar.* Lonk elige otra posición entera no negativa a su izquierda o a su
     derecha y salta a ella, gastando tanta energía como la distancia
     que recorre.
     Puede pasar por encima de los meblins, pero siempre debe aterrizar
-    en una posición libre.
+    en una posición libre, es decir, sin un meblin vivo.
 
-  - *Disparar.* Lonk elige un meblin vivo a cualquiera de sus lados y
-    dispara una de sus flechas.
+  - *Disparar.* Lonk elige el meblin vivo más cercano a su izquierda o
+    el más cercano a su derecha y le dispara una de sus flechas.
     Gasta tanta energía como la distancia al objetivo.
     El disparo derrota al meblin de inmediato y deja libre su posición,
     por lo que luego Lonk puede aterrizar en ella.
 
-  Lonk puede combinar saltos y disparos en cualquier orden. Ayúdalo a
+  Lonk puede combinar saltos y disparos en cualquier orden y no necesita
+  terminar en ninguna posición en particular. Ayúdalo a
   determinar si puede derrotar a todos los meblins sin gastar más de $E$
   unidades de energía.
 ]
