@@ -17,18 +17,27 @@
 )
 
 #problemDescription[
-  Juanito tiene $N$ poleras ordenadas en una fila, numeradas de $1$ a $N$.
-  Inicialmente, la polera en la posición $i$ tiene color $C_i$.
+  Emilia guarda sus $N$ poleras colgadas en una fila, numeradas de $1$ a $N$.
+  La polera en la posición $i$ es de color $C_i$. A Emilia le da lo mismo
+  cuál polera roja usa, así que poleras del mismo color son indistinguibles.
 
-  Cada día, Juanito elige exactamente $K$ poleras para usar. Al terminar el día, su mamá lava las poleras que usó y las coloca al final de la fila, en cualquier orden. Las poleras que Juanito no usó conservan su orden relativo.
+  Mientras Emilia tocaba su flautanahoria en el concierto de la OCI, su
+  hermano Javier fue a un cumpleaños. Uno de los juegos era ver quién se
+  ponía más poleras, así que sacó exactamente $K$ poleras del clóset de
+  Emilia y se las puso todas, una encima de otra. Al volver a casa las lavó
+  y, para que Emilia no se diera cuenta, las colgó al final de la fila en
+  cualquier orden. Las poleras que no sacó conservaron su orden relativo.
 
-  Al final del día, Juanito mira la fila y ve que los colores de sus poleras,
+  Cuando Emilia vuelve, mira la fila y ve que los colores de sus poleras,
   de izquierda a derecha, son $D_1, D_2, dots, D_N$.
-  Observa que las poleras no cambian de color; solo cambian de posición.
+  Javier jura que sacó exactamente $K$ poleras, pero Emilia no le cree: ya
+  la ha despertado demasiadas veces con sus ronquidos.
 
   Dadas la configuración inicial $(C_1, C_2, dots, C_N)$ y la configuración
-  final $(D_1, D_2, dots, D_N)$, determina si es posible obtener la segunda a
-  partir de la primera después de un día.
+  final $(D_1, D_2, dots, D_N)$, determina si la historia de Javier es
+  posible. Es decir, si se pueden elegir $K$ poleras de la fila inicial de
+  modo que, al sacarlas y colgarlas al final de la fila en algún orden, los
+  colores queden exactamente como en la fila final.
 ]
 
 #inputDescription[
@@ -45,11 +54,11 @@
 
 #scoreDescription[
   #subtask(15)[
-    Juanito usa todas sus poleras ($K = N$).
+    Javier saca todas las poleras ($K = N$).
   ]
 
   #subtask(25)[
-    Juanito usa una sola polera ($K = 1$).
+    Javier saca una sola polera ($K = 1$).
   ]
 
   #subtask(60)[
