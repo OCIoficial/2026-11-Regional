@@ -18,11 +18,11 @@
       <path d="M34 32H141"/><path d="M405 32H305"/><path d="M419 32H465"/>
     </g>
     <g fill="#794122" font-weight="bold">
-      <text x="88" y="23">1</text><text x="358" y="23">4</text><text x="439" y="23">5</text>
+      <text x="88" y="23">a</text><text x="358" y="23">d</text><text x="439" y="23">e</text>
     </g>
     <g fill="none" stroke="#155966" stroke-width="1.7" stroke-dasharray="5 3" marker-end="url(#jump)">
       <path d="M34 103Q88 133 141 103"/><path d="M142 103Q277 145 411 103"/>
     </g>
-    <g fill="#155966" font-weight="bold"><text x="88" y="138">2</text><text x="277" y="144">3</text></g>
+    <g fill="#155966" font-weight="bold"><text x="88" y="138">b</text><text x="277" y="144">c</text></g>
   </g>
 </svg>

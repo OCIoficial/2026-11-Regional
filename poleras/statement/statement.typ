@@ -19,11 +19,13 @@
 #problemDescription[
   Juanito tiene $N$ poleras ordenadas en una fila, numeradas de $1$ a $N$.
   Inicialmente, la polera en la posición $i$ tiene color $C_i$.
-  
+
   Cada día, Juanito elige exactamente $K$ poleras para usar. Al terminar el día, su mamá lava las poleras que usó y las coloca al final de la fila, en cualquier orden. Las poleras que Juanito no usó conservan su orden relativo.
-  
-  Después de este proceso, la polera en la posición $i$ tiene color $D_i$.
-  
+
+  Al final del día, Juanito mira la fila y ve que los colores de sus poleras,
+  de izquierda a derecha, son $D_1, D_2, dots, D_N$.
+  Observa que las poleras no cambian de color; solo cambian de posición.
+
   Dadas la configuración inicial $(C_1, C_2, dots, C_N)$ y la configuración
   final $(D_1, D_2, dots, D_N)$, determina si es posible obtener la segunda a
   partir de la primera después de un día.

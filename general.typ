@@ -12,7 +12,7 @@ Esta página muestra información general que se aplica a todos los problemas.
 + Los participantes deben enviar *un solo archivo* con el código fuente de su solución.
 + El nombre del archivo debe tener la extensión `.cpp` o
   `.java` dependiendo de si la solución está escrita en
-  `C++` o `Java` respectivamente.
+  `C++` o `Java`, respectivamente.
   Para enviar una solución en Java hay que seguir algunos pasos adicionales. Ver detalles más abajo.
 
 == Casos de prueba, subtareas y puntaje
@@ -22,10 +22,10 @@ Esta página muestra información general que se aplica a todos los problemas.
   subtareas que lo restringen. Se asignará puntaje de acuerdo a la
   cantidad de subtareas que se logre solucionar de manera correcta.
 + A menos que se indique lo contrario, para obtener el puntaje en una
-  subtarea se debe tener correctos todos los casos de prueba incluidos en ella.
+  subtarea se deben tener correctos todos los casos de prueba incluidos en ella.
 + Una solución puede resolver al mismo tiempo más de una subtarea.
-+ La solución es ejecutada con cada caso de prueba de manera independiente y
-   por tanto puede fallar en algunas subtareas sin influir en la ejecución de
++ La solución es ejecutada con cada caso de prueba de manera independiente y,
+   por tanto, puede fallar en algunas subtareas sin influir en la ejecución de
    otras.
 
 == Entrada
@@ -41,7 +41,7 @@ Esta página muestra información general que se aplica a todos los problemas.
 
 == Salida
 + Toda escritura debe ser hecha hacia la *salida estándar* usando, por
-  ejemplo, las funciones `printf`, `std::cout` en C++  o
+  ejemplo, las funciones `printf` o `std::cout` en C++ o
   `System.out.println` en Java.
 + El formato de salida es explicado en el enunciado de cada problema.
 + *La salida del programa debe cumplir estrictamente con el formato indicado*,
@@ -72,7 +72,7 @@ Esta página muestra información general que se aplica a todos los problemas.
   evaluación reportará un error de compilación.
 
 + La clase no debe estar contenida dentro de un _package_.
-    Hay que tener cuidado pues algunos entornos de desarrollo como Eclipse
+  Hay que tener cuidado, pues algunos entornos de desarrollo como Eclipse
   incluyen las clases en un _package_ por defecto.
-+ Si la clase está contenida dentro de un package, el sistema reportará un
++ Si la clase está contenida dentro de un _package_, el sistema reportará un
   error de compilación.
