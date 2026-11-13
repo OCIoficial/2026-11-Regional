@@ -1,25 +1,25 @@
 #include "testlib.h"
 
-typedef long long llong;
-
-std::tuple<llong, llong> read() {
-  llong a = inf.readLong(-3'000'000'000ll, 3'000'000'000ll, "a");
-  inf.readSpace();
-  llong b = inf.readLong(-3'000'000'000ll, 3'000'000'000ll, "b");
-  inf.readEoln();
-  inf.readEof();
-
-  return {a, b};
-}
-
 int main(int argc, char *argv[]) {
   auto subtask = std::string(argv[1]);
 
   registerValidation();
-  auto [a, b] = read();
+
+  int n = inf.readInt(1, 100'000, "N");
+  inf.readSpace();
+  int k = inf.readInt(1, n, "K");
+  inf.readEoln();
+  inf.readInts(n, 1, n, "C");
+  inf.readEoln();
+  inf.readInts(n, 1, n, "D");
+  inf.readEoln();
+  inf.readEof();
 
   if (subtask == "st1") {
-    ensure(a >= -1'000'000'000ll && a <= 1'000'000'000ll);
-    ensure(b >= -1'000'000'000ll && b <= 1'000'000'000ll);
+    ensuref(k == n, "K debe ser igual a N");
+  } else if (subtask == "st2") {
+    ensuref(k == 1, "K debe ser 1");
+  } else if (subtask == "st3") {
+    ensuref(n <= 1000, "N debe ser a lo más 1000");
   }
 }

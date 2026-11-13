@@ -38,16 +38,24 @@
 ]
 
 #outputDescription[
-  La salida debe contener el string "SI" si se puede obtener la segunda configuración a partir de la primera, y "NO" en caso contrario.
+  La salida debe contener el string `SI` si se puede obtener la segunda configuración a partir de la primera, y `NO` en caso contrario.
 ]
 
 #scoreDescription[
-  #subtask(50)[
-    Se probarán varios casos de prueba donde $-10^9 <= a, b <= 10^9$.
+  #subtask(10)[
+    Juanito usa todas sus poleras ($K = N$).
   ]
 
-  #subtask(50)[
-    Se probarán varios casos de prueba sin restricciones adicionales
+  #subtask(20)[
+    Juanito usa una sola polera ($K = 1$).
+  ]
+
+  #subtask(30)[
+    $N <= 1000$.
+  ]
+
+  #subtask(40)[
+    Sin restricciones adicionales.
   ]
 ]
 

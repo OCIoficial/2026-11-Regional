@@ -25,7 +25,7 @@ void solve() {
 
     for(auto [color, amount]: freq){
         if(amount != 0){
-            cout << "No" << '\n';
+            cout << "NO" << '\n';
             return;
         }
     }
@@ -37,7 +37,7 @@ void solve() {
         }
     }
 
-    cout << (pos == n - k ? "Si" : "No") << '\n';
+    cout << (pos == n - k ? "SI" : "NO") << '\n';
 }
 
 signed main(){
