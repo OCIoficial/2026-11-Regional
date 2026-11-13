@@ -19,7 +19,7 @@
 #problemDescription[
   Emilia guarda sus $N$ poleras colgadas en una fila, numeradas de $1$ a $N$.
   La polera en la posición $i$ es de color $C_i$.
-  Todas las poleras de un mismo color son indistinguibles.
+  Las poleras de un mismo color son indistinguibles.
 
   Mientras Emilia tocaba su flautanahoria en el concierto de la OCI, su
   hermano Javier fue a un cumpleaños. Uno de los juegos era ver quién se
