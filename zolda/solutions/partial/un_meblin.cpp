@@ -18,6 +18,6 @@ int main() {
     mx = max(mx, x);
   }
 
-  cout << (mx <= e ? "SI" : "NO") << '\n';
+  cout << (mx <= e ? "YES" : "NO") << '\n';
   return 0;
 }

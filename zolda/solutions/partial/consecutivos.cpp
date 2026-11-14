@@ -14,6 +14,6 @@ int main() {
   for (int64_t &v : x) cin >> v;
 
   int64_t mn = *min_element(x.begin(), x.end());
-  cout << (mn + 2LL * n - 2 <= e ? "SI" : "NO") << '\n';
+  cout << (mn + 2LL * n - 2 <= e ? "YES" : "NO") << '\n';
   return 0;
 }

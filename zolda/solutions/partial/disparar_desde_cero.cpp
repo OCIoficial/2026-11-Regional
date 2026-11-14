@@ -17,6 +17,6 @@ int main() {
     suma += x;
   }
 
-  cout << (suma <= e ? "SI" : "NO") << '\n';
+  cout << (suma <= e ? "YES" : "NO") << '\n';
   return 0;
 }

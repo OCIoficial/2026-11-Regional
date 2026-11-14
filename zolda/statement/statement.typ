@@ -52,7 +52,7 @@
 ]
 
 #outputDescription[
-  Imprime `SI` si Lonk puede derrotar a todos los meblins gastando como
+  Imprime `YES` si Lonk puede derrotar a todos los meblins gastando como
   máximo $E$ unidades de energía. En caso contrario, imprime `NO`.
 ]
 
@@ -88,7 +88,7 @@
     ]
 
     En total, Lonk gasta $2 + 2 + 5 + 2 + 1 = 12$ unidades de energía. Como
-    dispone de $13$, la respuesta es `SI`.
+    dispone de $13$, la respuesta es `YES`.
 
     #sampleIO("sample-2")
   ]

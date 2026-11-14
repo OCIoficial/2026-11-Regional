@@ -17,6 +17,6 @@ int main() {
     mx = max(mx, x);
   }
 
-  cout << (mx + n <= e ? "SI" : "NO") << '\n';
+  cout << (mx + n <= e ? "YES" : "NO") << '\n';
   return 0;
 }

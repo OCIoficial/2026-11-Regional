@@ -8,13 +8,13 @@
 #     desc   Posiciones ordenadas de mayor a menor.
 #     azar   Posiciones desordenadas al azar (con el máximo fuera del final si N >= 2).
 #   MODO:
-#     consec_justo   N posiciones consecutivas, E = max(x) + N - 1 (SI exacto).
+#     consec_justo   N posiciones consecutivas, E = max(x) + N - 1 (YES exacto).
 #     consec_casi    N posiciones consecutivas, E = max(x) + N - 2 (NO por 1).
 #     consec_trampa  N posiciones consecutivas, E = max(x) (NO si N >= 2, atrapa `max(x) <= E`).
-#     disp_justo     Posiciones dispersas, E = max(x) + N - 1 (SI exacto).
+#     disp_justo     Posiciones dispersas, E = max(x) + N - 1 (YES exacto).
 #     disp_casi      Posiciones dispersas, E = max(x) + N - 2 (NO por 1).
 #     disp_trampa    Posiciones dispersas con min(x) + 2*N - 2 <= E < max(x) + N - 1 (NO, atrapa fórmula de consecutivos).
-#     bloques_justo  Varios bloques de meblins consecutivos, E = max(x) + N - 1 (SI exacto).
+#     bloques_justo  Varios bloques de meblins consecutivos, E = max(x) + N - 1 (YES exacto).
 
 import random
 import sys

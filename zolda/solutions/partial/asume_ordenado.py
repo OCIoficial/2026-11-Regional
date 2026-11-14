@@ -6,4 +6,4 @@ import sys
 datos = list(map(int, sys.stdin.buffer.read().split()))
 n, e = datos[0], datos[1]
 x = datos[2 : 2 + n]
-print("SI" if x[-1] + n - 1 <= e else "NO")
+print("YES" if x[-1] + n - 1 <= e else "NO")
