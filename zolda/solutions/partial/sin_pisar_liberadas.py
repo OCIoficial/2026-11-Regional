@@ -21,4 +21,4 @@ while i < n:
     gasto += k * (k + 1) // 2
     i = j + 1
 
-print("YES" if gasto <= e else "NO")
+print("SI" if gasto <= e else "NO")

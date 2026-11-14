@@ -77,7 +77,11 @@
   Imprime la mayor cantidad de horas que Emilia puede dormir. Si Javier ronca durante toda la noche, imprime `0`.
 ]
 
-Este problema tiene una sola subtarea de 100 puntos.
+#scoreDescription[
+  #subtask(100)[
+    Sin restricciones adicionales.
+  ]
+]
 
 #sampleDescription[
   #sampleIO("sample-1")

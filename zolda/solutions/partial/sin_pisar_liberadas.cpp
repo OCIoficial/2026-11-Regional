@@ -29,6 +29,6 @@ int main() {
     i = j + 1;
   }
 
-  cout << (gasto <= e ? "YES" : "NO") << '\n';
+  cout << (gasto <= e ? "SI" : "NO") << '\n';
   return 0;
 }

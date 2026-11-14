@@ -13,6 +13,6 @@ int main() {
   vector<int64_t> x(n);
   for (int64_t &v : x) cin >> v;
 
-  cout << (x.back() + n - 1 <= e ? "YES" : "NO") << '\n';
+  cout << (x.back() + n - 1 <= e ? "SI" : "NO") << '\n';
   return 0;
 }
